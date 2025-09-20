@@ -257,7 +257,7 @@ uvicorn main:app --reload
 |[**✅ 1-Interpretable Machine Learning**](https://christophm.github.io/interpretable-ml-book/)|by Christoph Molnar A Guide for Making Black Box Models Explainable| InProgress|
 |[**✅ 2-Dive into Python 3**](https://diveintopython3.net/)|by Mark Pilgrim Dive into Python 3 and its differences from Python 2| InProgress|
 |[**✅ 3-Python Succinctly**](https://www.syncfusion.com/succinctly-free-ebooks/python/?utm_medium=reddit&utm_source=backlinks&utm_campaign=python-reddit-backlinks)|by Jason Cannon Dive Learn to use the Python language to create programs of all kinds.| InProgress|
-|[**✅ 4-Python Succinctly**](https://www.amazon.com/Python-Crash-Course-Eric-Matthes/dp/1718502702)|by Eric Mathes A Hands-On, Project-Based Introduction to Programming| InProgress|
+|[**✅ 4-Python Crash Course**](https://www.amazon.com/Python-Crash-Course-Eric-Matthes/dp/1718502702)|by Eric Mathes A Hands-On, Project-Based Introduction to Programming| InProgress|
 
 ### 🔹Python Projects**
 | Title | Description|Code|Status|Completed On|Author|
