@@ -61,6 +61,12 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 
  Also please subscribe to my [Youtube channel](https://www.youtube.com/@coursesteach-mv5si)
 
+ ## Quick Start Checklist with Links
+
+- Subscribe to [Couresesteach on YouTube](https://www.youtube.com/watch?v=A6KWIhgiyKc) and review the [course playlist](https://www.youtube.com/watch?v=A6KWIhgiyKc).
+- Read and Contribute in Pyhton Notes [Python Notes](https://docs.google.com/document/d/1cwciLJawfI20iDbzJBPyFKFg25ZZzsUpBP7mUal6uV4/edit?usp=sharing).
+- Enroll in Complete Pyhton Courese [Introduction to Python!](https://coursesteach.com/course/view.php?id=4) to Solve quiz and find extr resources.   
+
  ## **Contact**
    
    If you want to contact me, you can reach me through following social handles.
@@ -249,6 +255,7 @@ uvicorn main:app --reload
 | [**✅ 5 - Python Tutorial**](https://wiki.python.org/moin/BeginnersGuide) | Official Python guide | Pending |The absolute best place to start. It's concise and covers the fundamentals from the creators themselves.|
 | [**✅ 6 - w3Schools Python Tutorial**](https://wiki.python.org/moin/BeginnersGuide) | Practice while learning | Pending | Great for quick reference. It's a no-frills site where you can quickly find explanations and code examples for specific concepts.|
 | [**✅ 7 - Real Python**](https://realpython.com/) | Explore python topic wise | Pending | Offers high-quality tutorials on everything from intermediate Python concepts to advanced topics like concurrency and machine learning.|
+| [**✅ 8 - AI Python for Beginners by Andrew**](https://learn.deeplearning.ai/courses/ai-python-for-beginners/lesson/lg0k9/prioritizing-tasks-with-dictionaries-and-ai) | Explore python topic wise | Pending | Offers high-quality tutorials on everything from intermediate Python concepts to advanced topics like concurrency and machine learning.|
 
 
  👁️ Chapter1: - **Books**
@@ -298,9 +305,14 @@ uvicorn main:app --reload
 
 ## 👁️ Chapter5: - **🔍 Tools, Frameworks & Platforms**
 Understanding all the tools, frameworks, architectures, and ecosystems around NLP can sometimes feel harder than understanding AI itself. Below are the ones I’ve explored and used enough to feel confident recommending. Of course, these won’t solve every use case, and I’m not listing every supporting technology you might need to build real-world AI systems, but it’s a start.
-| Title/link| Description | Status |Feedback|
+| Title/link | Description | Status | Feedback |
 |---|---|---|---|
-|[**✅ 1- FastAdmin**](https://github.com/vsdudakov/fastadmin)|FastAdmin was built with relations in mind and admiration for the excellent and popular Django Admin. It's engraved in its design that you may configure your admin dashboard for FastAPI/Django/Flask easiest way.| Pending|⭐️⭐️⭐️|
+| [**✅ 1- FastAdmin**](https://github.com/vsdudakov/fastadmin) | Inspired by **Django Admin**, designed for **FastAPI/Django/Flask**. Provides quick setup of admin dashboards with relational support. | 🔄 Exploring | ⭐️⭐️⭐️ – promising for web backends |
+| [**✅ 2- NumPy**](https://numpy.org/) | Core for **numerical computing**: arrays, matrices, broadcasting, fast operations on large datasets. Foundation for ML & DL. | ✅ Actively using | ⭐️⭐️⭐️⭐️ – essential for any ML work |
+| [**✅ 3- Pandas**](https://pandas.pydata.org/) | **Data analysis & manipulation**: DataFrames & Series, reading/writing CSV/Excel, GroupBy, filtering, merging. | ✅ Actively using | ⭐️⭐️⭐️⭐️ – great for preprocessing |
+| [**✅ 4- Matplotlib**](https://matplotlib.org/) | **Data visualization**: line, bar, scatter, pie charts. Custom styling, labels, subplots. Widely used in ML/DS. | 📌 Recommended | ⭐️⭐️⭐️ – versatile but learning curve |
+
+
 
 ## 👁️ Chapter5: - **Free online Python editor**
 | Title/link| Description | Status |Feedback|
