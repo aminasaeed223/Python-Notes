@@ -1,0 +1,126 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/aminasaeed223/Python-Notes/blob/master/Dice%20Rolling%20Project\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Dice Rolling Program in Python"
+      ],
+      "metadata": {
+        "id": "pHCOcTNkt5iJ"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Step 1: Import the random module\n",
+        "### The 'random' module helps us generate random numbers."
+      ],
+      "metadata": {
+        "id": "8DEj0OSNyVDv"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import random"
+      ],
+      "metadata": {
+        "id": "YQVZ7MPwyVjC"
+      },
+      "execution_count": 1,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Step 2: Start an infinite loop using 'while True'\n",
+        "### This keeps the program running until the user decides to quit."
+      ],
+      "metadata": {
+        "id": "cQfGJt2Aylex"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "while True:\n",
+        "   # Step 3: Ask the user if they want to roll the dice\n",
+        "    # input() is used to get text from the user.\n",
+        "    # .lower() ensures the answer is always lowercase (so 'Y' and 'y' are treated the same).\n",
+        "    choice = input('Roll the dice? (y/n): ').lower()\n",
+        "\n",
+        "    # Step 4: If the user says 'y', roll two dice\n",
+        "    if choice == 'y':\n",
+        "        # random.randint(1, 6) gives a random number between 1 and 6 (inclusive)\n",
+        "        die1 = random.randint(1, 6)\n",
+        "        die2 = random.randint(1, 6)\n",
+        "\n",
+        "        # Using f-strings (formatted string literals) to show results\n",
+        "        print(f'You rolled: ({die1}, {die2})')\n",
+        "\n",
+        "    # Step 5: If the user says 'n', end the game\n",
+        "    elif choice == 'n':\n",
+        "        print('Thanks for playing!')\n",
+        "        break  # break exits the while loop\n",
+        "\n",
+        "    # Step 6: Handle invalid input\n",
+        "    else:\n",
+        "        print('Invalid choice! Please type \"y\" or \"n\".')"
+      ],
+      "metadata": {
+        "id": "O9XFKlHtyoSp",
+        "outputId": "50ab8ac8-4fd5-4eae-fecb-4ce6d8faf6ac",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Roll the dice? (y/n): y\n",
+            "You rolled: (5, 2)\n",
+            "Roll the dice? (y/n): y\n",
+            "You rolled: (5, 6)\n",
+            "Roll the dice? (y/n): n\n",
+            "Thanks for playing!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "S7Maxd6Yytzf"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome to Colab",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
